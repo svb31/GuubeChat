@@ -5,7 +5,7 @@
   "main": "build/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "./node_modules/.bin/babel src --out-dir build"
+    "build": "./node_modules/.bin/babel src --out-dir build --copy-files"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/svb31/GuubeChat/issues"
   },
-  "homepage": "https://github.com/svb31/GuubeChat#readme"
+  "homepage": "https://github.com/svb31/GuubeChat#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1"
+  }
 }
