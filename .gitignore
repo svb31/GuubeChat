@@ -1,2 +1,8 @@
+# Node stuff
 /node_modules
 /build
+
+# Python stuff
+/venv
+/chatboxserver.egg-info
+__pycache__/
