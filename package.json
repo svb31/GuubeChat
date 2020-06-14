@@ -1,0 +1,20 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "A Pen created on CodePen.io. Original URL: [https://codepen.io/svbavel/pen/mdewbLb](https://codepen.io/svbavel/pen/mdewbLb).",
+  "main": "build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "./node_modules/.bin/babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svb31/GuubeChat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svb31/GuubeChat/issues"
+  },
+  "homepage": "https://github.com/svb31/GuubeChat#readme"
+}
