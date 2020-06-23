@@ -5,7 +5,7 @@ async def allow_CORS(request, response):
     response.headers['Access-Control-Allow-Origin'] = 'https://cdpn.io'
 
 async def GET_index(req):
-    raise web.HTTPFound('/static/index.html')
+    raise web.HTTPFound('static/index.html')
 
 async def GET_chat_getmsg(req):
 

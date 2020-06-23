@@ -81,7 +81,7 @@ class MessageScreen extends React.Component {
   }
   
   getMessages() {
-    const endpoint = this.state.endpoint + '/chatbox/chat/getmsg';
+    const endpoint = this.state.endpoint + '/chat/getmsg';
     console.log('Start getting new messages from '+ endpoint);
     //todo logic to retrieve messages
     var messages = this.httpGet(endpoint);
@@ -216,6 +216,6 @@ class ChatBot extends React.Component {
 // ========================================
 
 ReactDOM.render(
-  <ChatBot endpoint='https://sandbox.guube.nl' />,
+  <ChatBot endpoint='..' />,
   document.getElementById('root')
 );

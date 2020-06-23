@@ -5,7 +5,7 @@
   "main": "build/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel src --out-dir build --copy-files"
+    "build": "./node_modules/.bin/babel src --out-dir static --copy-files"
   },
   "repository": {
     "type": "git",

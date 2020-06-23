@@ -1,6 +1,7 @@
 # Node stuff
 /node_modules
-/build
+/static/**
+!/static/.gitkeep
 
 # Python stuff
 /venv
